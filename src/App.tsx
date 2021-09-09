@@ -68,8 +68,8 @@ function App() {
               <p className='text-white'>{state.comments[0].replies[0].commentText}</p>
 
               <div className='flex items-center'>
-                <img className='w-4 h-4 mr-1' src='/like.svg'></img>
-                <p className='text-gray-300'>{state.comments[0].replies[0].likeNum}</p>
+                {/* <img className='w-4 h-4 mr-1' src='/like.svg'></img> */}
+                {/* <p className='text-gray-300'>{state.comments[0].replies[0].likeNum}</p> */}
               </div>
             </div>
           </div>
